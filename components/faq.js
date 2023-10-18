@@ -35,22 +35,22 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "How do you charge for your services?",
+    answer: "Our pricing is flexible, depending on the project's complexity, duration, and specific requirements. We can work on a fixed-price, hourly, or retainer basis. Contact us for a detailed quote.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Do you offer ongoing support after the project completion?",
+    answer: "Yes, we offer various post-project support packages, including troubleshooting, updates, and continuous improvement strategies to ensure the longevity and effectiveness of the solutions we implement.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Do you offer remote consulting services?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Yes, in the era of digital transformation, we understand the importance of flexibility. We offer both in-person and remote consulting services to cater to clients globally.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Can you work alongside our existing Dev team?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Absolutely. We often collaborate with in-house teams, enhancing their capabilities and providing specialized expertise where needed.",
   },
 ];
 
