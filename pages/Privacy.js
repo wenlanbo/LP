@@ -1,4 +1,4 @@
-import Header from "../components/header";
+import Tab from "../components/tab";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import { H1, H2, H3, Paragraph } from '../components/atoms/Typography';
@@ -7,7 +7,7 @@ import { Container } from '../components/atoms/Container';
 const Privacy = () => {
     return (
         <>
-            <Header />
+            <Tab />
 
             <Navbar />
 

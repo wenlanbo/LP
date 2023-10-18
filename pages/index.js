@@ -1,4 +1,4 @@
-import Header from "../components/header";
+import Tab from "../components/tab";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
@@ -13,7 +13,7 @@ import PopupWidget from "../components/popupWidget";
 const Home = () => {
   return (
     <>
-      <Header />
+      <Tab />
 
       <Navbar />
       <Hero />
