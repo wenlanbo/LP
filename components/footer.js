@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
+import Logo from "../public/img/logo.svg";
+
 
 export default function Footer() {
   const legal = ["Terms", "Privacy"];
@@ -14,8 +16,8 @@ export default function Footer() {
               {" "}
               <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <Image
-                      src="/img/logo.svg"
-                      alt="N"
+                      src={Logo}
+                      alt="A"
                       width="32"
                       height="32"
                       className="w-8"

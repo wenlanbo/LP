@@ -1,18 +1,13 @@
-import Head from "next/head";
+import Header from "../components/header";
 import Navbar from "../components/navbar";
-
-
 import Footer from "../components/footer";
-
 import { H1, H2, Paragraph } from '../components/atoms/Typography';
 import { Container } from '../components/atoms/Container';
+
 const Terms = () => {
   return (
     <>
-      <Head>
-        <title>Anicca Research</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Header />
 
       <Navbar />
       <Container>

@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Header from "../components/header";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
@@ -13,10 +13,7 @@ import PopupWidget from "../components/popupWidget";
 const Home = () => {
   return (
     <>
-      <Head>
-        <title>Anicca Research</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Header />
 
       <Navbar />
       <Hero />
@@ -28,7 +25,7 @@ const Home = () => {
         Our solutions are tailored to fit your unique business goals and challenges.
       </SectionTitle>
       <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} /> 
+      <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
       </SectionTitle>
       <Faq />

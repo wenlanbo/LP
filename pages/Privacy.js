@@ -1,6 +1,5 @@
-import Head from "next/head";
+import Header from "../components/header";
 import Navbar from "../components/navbar";
-import SectionTitle from "../components/sectionTitle";
 import Footer from "../components/footer";
 import { H1, H2, H3, Paragraph } from '../components/atoms/Typography';
 import { Container } from '../components/atoms/Container';
@@ -8,10 +7,7 @@ import { Container } from '../components/atoms/Container';
 const Privacy = () => {
     return (
         <>
-            <Head>
-                <title>Anicca Research</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
+            <Header />
 
             <Navbar />
 
@@ -205,11 +201,11 @@ const Privacy = () => {
                         </Paragraph>
 
                         <div className="mb-3">
-                        <H2 className="mb-3">Contact us about Privacy Questions</H2>
-                        <Paragraph className="mb-2">
-                        If you have any questions or concerns regarding this Privacy Policy, please contact us via email at info@anicca.website
-                        </Paragraph>
-                    </div>
+                            <H2 className="mb-3">Contact us about Privacy Questions</H2>
+                            <Paragraph className="mb-2">
+                                If you have any questions or concerns regarding this Privacy Policy, please contact us via email at info@anicca.website
+                            </Paragraph>
+                        </div>
                     </div>
 
 
